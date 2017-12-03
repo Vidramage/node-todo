@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.checkbox {
+  width: 100%;
+  margin: 20px 100px;
+  position: relative;
+}
+.checkbox input {
+  cursor: pointer;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -7px;
+  left: 9px;
+  background: #eee;
+  border: 1px solid #ddd;
+}
+.checkbox input:after {
+  opacity: 1;
+  content: '×';
+  transform: scale(2);
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  color: red;
+  top: -1px;
+  left: 8px;
+}
